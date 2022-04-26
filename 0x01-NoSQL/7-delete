@@ -1,2 +1,2 @@
 // script deletes all documents with name="Holberton school" in collection
-db.school.remove({name:{$eq: "Holberton school"}})
+db.school.deleteMany({name:"Holberton school"})
